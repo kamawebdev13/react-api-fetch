@@ -1,11 +1,10 @@
-// import Directory from "./Pages/Directory";
-import Gallery from "./Pages/Gallery";
+
+import PhrasalVerbsGenerator from "./Pages/PhrasalVerbsGenerator";
 
 function App() {
   return (
     <>
-      {/* <Directory /> */}
-       <Gallery />
+       <PhrasalVerbsGenerator/>
     </>
   );
 }
