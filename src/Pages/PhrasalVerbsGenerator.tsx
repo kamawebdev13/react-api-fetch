@@ -1,5 +1,5 @@
 import { usePhrasalVerbs } from "../hooks/usePhrasalVerbs";
-import PhrasalVerbCard from "../components/CardUser/PhrasalVerbCard";
+import PhrasalVerbCard from "../components/CardPhrasalVerb/PhrasalVerbCard";
 
 const PhrasalVerbsGenerator = () => {
   const { phrasalVerbs, loading, error } = usePhrasalVerbs(); // ← phrasalVerbs con V mayúscula
